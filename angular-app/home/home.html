@@ -1,0 +1,14 @@
+<div class="container-fluid">
+  <div class="row">
+    <div ng-repeat="home in hc.blocHome" class="col-xs-12 col-sm-4 homeBloc">
+      <h1>{{home.title}}</h1>
+      <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+        <img src="{{home.imageUrl}}" alt="Photo d'oisillon" />
+        <ul>
+          <li ng-repeat="li in home.list"><a href=#{{li.redirection}}>{{li.title}}</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>

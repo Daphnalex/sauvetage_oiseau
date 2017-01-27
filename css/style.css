@@ -1,0 +1,167 @@
+/*-----------------------------------*/
+/*            CSS COMMON             */
+/*-----------------------------------*/
+body{
+  font-size: 16px;
+}
+.nav-pills>li>a, .nav-pills>li>a:focus, .nav-pills>li>a:hover{
+  background-color: #ddc9b9;
+  margin-right: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.nav-pills>li>a{
+  color: black;
+  font-size: 18px;
+}
+ul.nav.nav-pills li img{
+  height: 250px;
+  margin-top: -150px;
+}
+ul.nav.nav-pills{
+  border-bottom : 2px dashed
+}
+span.bold{
+  font-weight: bold;
+}
+td.center{
+  text-align: center;
+}
+table{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+/*CSS contenus page commun*/
+
+.nav-pills>li>a, .nav-pills>li>a:focus{
+  background-color: #ddc9b9;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+.nav-pills>li>a:hover{
+  background-color: #ccb8a9;
+  color: white;
+}
+.nav-pills>li>a{
+  color: black;
+}
+ul.nav.nav-pills li img{
+  height: 250px;
+  margin-top: -150px;
+}
+ul.nav.nav-pills{
+  border-bottom : 2px dashed #ddc9b9;
+}
+.contenuPage{
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+.contenuPage h1{
+  background-color: #ddc9b9;
+  font-size: 22px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+.contenuPage h2{
+  font-size: 22px;
+  color: #ccb8a9;
+  font-weight: bold;
+  border-bottom: 2px dashed #ccb8a9;
+  margin-top: 30px;
+  padding-bottom: 5px;
+}
+span.legende{
+  font-style: italic;
+  font-weight: bold;
+}
+.title{
+  font-size: 18px;
+  font-weight: bold;
+}
+/*-----------------------------------*/
+/*         FIN CSS COMMON            */
+/*-----------------------------------*/
+
+
+/*-----------------------------------*/
+/*            CSS HEADER             */
+/*-----------------------------------*/
+.backImage img{
+  width: 100%;
+}
+.navbar.navbar-default{
+  margin-bottom: 0px;
+  background-color: white;
+  color: grey;
+}
+
+/*-----------------------------------*/
+/*          FIN CSS HEADER           */
+/*-----------------------------------*/
+
+
+/*-----------------------------------*/
+/*            CSS HOME               */
+/*-----------------------------------*/
+.homeBloc h1{
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+}
+.homeBloc img{
+  height : 300px;
+  width: auto;
+}
+.homeBloc li{
+  margin-top : 15px;
+}
+.homeBloc li a{
+  color: black;
+}
+.homeBloc li a:hover{
+  color: grey;
+  text-decoration: none;
+}
+
+/*-----------------------------------*/
+/*         FIN CSS HOME              */
+/*-----------------------------------*/
+
+
+/*-----------------------------------*/
+/*         CSS OISILLONS             */
+/*-----------------------------------*/
+table.birdEspece div.blocImage{
+  width: 100%;
+  height: auto;
+  overflow:hidden
+}
+table.birdEspece div.blocImage img{
+  width: 100%;
+}
+table.birdEspece tr td{
+  border: 1px solid black;
+  padding: 15px;
+}
+table.hirondelle tr td{
+  border: 1px solid black;
+  padding: 15px;
+}
+table.hirondelle{
+  width: 100%;
+}
+table.hirondelle div.blocImage{
+  width: 100%;
+  height: auto;
+  overflow:hidden;
+}
+table.hirondelle div.blocImage img{
+  width: 100%;
+}
+/*-----------------------------------*/
+/*        FIN CSS OISILLONS          */
+/*-----------------------------------*/
